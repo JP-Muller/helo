@@ -1,0 +1,153 @@
+.Post {
+  width: 70%;
+  min-height: 420px;
+  margin: 0 auto;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-content-box {
+  margin: 10px 0;
+}
+
+.post-content-box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  max-height: 375px;
+  font-size: 22px;
+}
+
+.post-box {
+  min-height: 420px;
+}
+.post-img {
+  border-radius: 2px;
+  width: 50%;
+  height: 300px;
+  background-position: 50%;
+  background-size: cover;
+  margin: 0 15px 0 0;
+  float: left;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.1), 0 5px 7px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.post-img input {
+  width: 100%;
+}
+.author-box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.title input {
+  height: 40px;
+  /* width: 250px; */
+  width: 100%;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ff9770;
+}
+
+.editing-content {
+  min-width: 48%;
+  max-width: 48%;
+  min-height: 300px;
+}
+
+.comments-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.comments-container img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #333;
+  margin-right: 15px;
+}
+
+.comment-textbox {
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  text-align: justify;
+  box-shadow: 0 0 5px #333;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.post-comment-icon {
+  font-size: 22px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  /* padding: 2px;
+  box-shadow: 0 0 10px #333; */
+}
+
+.poster-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  max-width: 50px;
+}
+
+.poster-info img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #333;
+}
+
+.poster-info p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.comment-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 1px solid black;
+  transition: 0.5s;
+}
+
+.comment-container:hover {
+  transform: scale(1.02);
+}
+
+.comment-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 10px #333; */
+  width: 40vw;
+  text-align: justify;
+}
+
+.comment-content p {
+  width: 100%;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.comment-timestamp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
